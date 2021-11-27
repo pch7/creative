@@ -50,15 +50,17 @@ h1{
     width: 100%;
     margin: 0 auto 30px auto;
     line-height: 2;
+    font-size: 20px;
 }
 .dd{
-    width: 30%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
 .lorem{
     width: 50%;
     margin: 0 auto 75px;
+    font-size: 20px;
 }
 .gif{
     text-align: left;
@@ -69,6 +71,7 @@ h1{
 .ipsum{
     width: 50%;
     margin: 0 auto 75px;
+    font-size: 20px;
 }
 .computer{
     float: right;
@@ -78,7 +81,7 @@ h1{
 .deve{
     text-align: left;
     color: #66BFBF;
-    font-size:20px;
+    font-size:25px;
 }
 .line1{
     text-align: left;
@@ -169,7 +172,9 @@ a{
     font-family: 'East Sea Dokdo', cursive;
 }
 .contact{
-    backgroung-color: #EAF6F6;
+    background-color: #EAF6F6;
+    font-size: 20px;
+    padding: 10px;
 }
 .mail{
     margin-right: 300px;
@@ -252,8 +257,45 @@ a{
     border-radius: 7px;
     text-decoration: none;
  }
+ .submit {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    color: #FFFFFF;
+    font-family: monospace;
+    font-size: 19px;
+    font-weight: 100;
+    padding: 6px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
  
- 
+ .submit:hover {
+    border: solid #337FED 3px;
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC48D);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC48D);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC48D);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC48D);
+    background-image: -webkit-gradient(to bottom, #30E3CB, #2BC48D);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    text-decoration: none;
+ }
  hr:hover{
      color: #FFA500;
      font-size: 200%;
@@ -284,3 +326,5 @@ p:hover{
     color: blue;
     font-size: 30px;
 }
+
+
